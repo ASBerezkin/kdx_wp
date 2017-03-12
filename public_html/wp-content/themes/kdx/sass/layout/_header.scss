@@ -1,0 +1,11 @@
+.site-header {
+	background: blue;
+	
+	@include media_tablet {		
+		background: green;
+	}
+	
+	@include media_desktop {		
+		background: yellow;
+	}
+}
